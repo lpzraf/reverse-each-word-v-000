@@ -17,13 +17,12 @@ end
  strings.each do |word|
   new_string = ""
   word.each do |char|
-  char.concat(new_string)
+  new_string << char.reverse
  end
  reversed_strings << new_string
- 
  end
 
-new_array << word.reverse
+
     
 
 
