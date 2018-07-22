@@ -21,7 +21,7 @@ def reverse_each_word (sentence1)
  reversed_strings = []
  
  strings.each do |word|
-   new_string = ""
+  new_string = ""
   word.each do |char|
  end
  reversed_strings << new_string
