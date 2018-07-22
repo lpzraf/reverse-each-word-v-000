@@ -1,25 +1,25 @@
-def reverse_each_word (sentence1)
- strings = sentence1.split(' ')
- reversed_strings = []
+# def reverse_each_word (sentence1)
+# strings = sentence1.split(' ')
+# reversed_strings = []
  
- strings.each do |word|
-  new_string = ""
-  word.each do |char|
-  char.concat(new_string)
- end
- reversed_strings << new_string
+# strings.each do |word|
+#   new_string = ""
+#   word.each do |char|
+#   char.concat(new_string)
+# end
+# reversed_strings << new_string
  
- end
- return reversed_strings.join(' ')
-end
+# end
+# return reversed_strings.join(' ')
+# end
 
 
- strings.each do |word|
-  new_string = ""
-  word.each do |char|
-  new_string << char.reverse
+reversed_strings = []
+strings.each do |word| #where strings is an array of words
+  reversed_strings << word.reverse
  end
- reversed_strings << new_string
+#now return array rejoined as a string here.
+return reversed_strings.join(' ')
  end
 
 
