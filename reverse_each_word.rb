@@ -1,10 +1,3 @@
-
-# def reverse_each_word (sentence1)
-#   sentence1.each do |sentence|
-#   sentence.reverse
-#   end
-# end
-
 # def reverse_each_word (sentence1)
 #     temp_array = []
 #     reverse_array = []
@@ -25,13 +18,15 @@
 
 def reverse_each_word (sentence1)
  strings = sentence1.split(' ')
- reversed_string = []
+ reversed_strings = []
  
  strings.each do |word|
+   new_string = ""
   word.each do |char|
  end
- 
- return reversed_string.join(' ')
+ reversed_strings << new_string
+ end
+ return reversed_strings.join(' ')
 end
     
 
