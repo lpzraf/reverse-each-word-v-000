@@ -13,7 +13,7 @@
 # return reversed_strings.join(' ')
 # end
 
-
+def reverse_each_word (sentence1)
 reversed_strings = []
 strings.each do |word| #where strings is an array of words
   reversed_strings << word.reverse
@@ -21,6 +21,16 @@ strings.each do |word| #where strings is an array of words
 #now return array rejoined as a string here.
 return reversed_strings.join(' ')
  end
+end
+
+
+# reversed_strings = []
+# strings.each do |word| #where strings is an array of words
+#   reversed_strings << word.reverse
+# end
+# #now return array rejoined as a string here.
+# return reversed_strings.join(' ')
+# end
 
 
     
