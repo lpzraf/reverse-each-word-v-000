@@ -5,13 +5,15 @@ def reverse_each_word (sentence1)
  strings.each do |word|
   new_string = ""
   word.each do |char|
+  char.concat(new_string)
  end
  reversed_strings << new_string
+ 
  end
  return reversed_strings.join(' ')
 end
 
-# "a".concat("b")
+
     
 
 
